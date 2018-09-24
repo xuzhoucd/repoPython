@@ -13,11 +13,17 @@ https://cloud.google.com/python/django/appengine
 
 # Setup Python environment
 Run below command after gcloud sdk is installed on your host
+
 cd django
+
 virtualenv env
+
 source env/bin/activate
+
 pip install -r requirements-vendor.txt -t lib/
+
 pip install -r requirements.txt
+
 
 # Deploy the app to App Engine
 gcloud app deploy
