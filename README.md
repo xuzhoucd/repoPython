@@ -1,3 +1,3 @@
 # repoPython
 
-refer to django/README.md
+Please refer to django/README.md
